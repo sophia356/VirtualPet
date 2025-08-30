@@ -15,8 +15,6 @@ arc(200,240,50,50,radians(225),radians(315));
 fill(247,198,107);
 arc(173,235,50,50,radians(10),radians(120));
 arc(224,235,50,50,radians(50),radians(170));
-fill(254,77,77);
-ellipse(200,297,50,100);
 fill(247,198,107);
 rotate(radians(20));
 ellipse(160,160,40,200);
