@@ -14,10 +14,15 @@ void draw(){
   if(rButton > 500) {
     rotate(radians(180));
     ellipse(160,160,40,200);
-  }else
-     rotate(radians(20));
-     ellipse(160,160,40,200);
+    rotate(radians(180));
+    ellipse(160,160,40,200);
+  }else{
+    rotate(radians(20));
+    ellipse(160,160,40,200);
+    rotate(radians(-40));
+    ellipse(220,300,40,200);
 }
+
   fill(247,198,107);
   ellipse(200,200,200,200);
   fill(0,0,0);
@@ -32,8 +37,4 @@ void draw(){
   arc(173,235,50,50,radians(10),radians(120));
   arc(224,235,50,50,radians(50),radians(170));
   fill(247,198,107);
- // rotate(radians(20));
-  //ellipse(160,160,40,200);
-  rotate(radians(-40));
-  ellipse(220,300,40,200);
 }
